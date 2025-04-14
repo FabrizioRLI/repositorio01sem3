@@ -1,0 +1,7 @@
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\bin\Debug\Práctica02.exe.config
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\bin\Debug\Práctica02.exe
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\bin\Debug\Práctica02.pdb
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\obj\Debug\Practice01.csproj.AssemblyReference.cache
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\obj\Debug\Practice01.csproj.CoreCompileInputs.cache
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\obj\Debug\Práctica02.exe
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\qe\repositorio01sem3\Práctica02\obj\Debug\Práctica02.pdb

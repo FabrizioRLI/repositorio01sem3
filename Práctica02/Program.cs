@@ -111,7 +111,37 @@ namespace Práctica02
             Console.WriteLine($"\nLa raíz cuadrada es: {raizcuadrada}");
             Console.WriteLine($"La potencia a 3 es {potentres}");
         }
+        static void ejercicio9()
+        {
+            // Declara dos números (a = 10, b = 20) y evalúa con operadores relacionales:
+            // a == b, a != b, a > b, a < b, a >= b, a <= b
+            // Muestra los resultados con mensajes explicativos.
 
+            int a = 10, b = 20;
+            Console.WriteLine("A = 10 / B = 20");
+            Console.WriteLine($"¿a == b? Respuesta : {a == b} 10 no es igual a 20.");
+            Console.WriteLine($"¿a != b? Respuesta : {a != b} 10 si es diferente de 20.");
+            Console.WriteLine($"¿a > b? Respuesta : {a > b} 10 no es mayor que 20.");
+            Console.WriteLine($"¿a < b? Respuesta : {a < b} 10 si es menor que 20.");
+            Console.WriteLine($"¿a >= b? Respuesta : {a >= b} 10 no es mayor o igual que 20.");
+            Console.WriteLine($"¿a <= b? Respuesta : {a <= b} 10 si es menor o igual que 20.");
+        }
+        static void ejercicio10()
+        {
+            // Declara dos valores booleanos (bool x = true, bool y = false)
+            // Evalúa y muestra:
+            // x && y
+            // x || y
+            // !x, !y
+
+            bool x = true, y = false;
+            Console.WriteLine($"x={x}, y={y}");
+
+            Console.WriteLine($"x && y = {x && y} -> Ambos deben ser verdaderos, ya que y es falso, el resultado es falso.");
+            Console.WriteLine($"x || y = {x || y} -> Al menos uno debe ser verdadero, al saber que x es verdadero, el resultado es verdadero.");
+            Console.WriteLine($"!x = {!x} -> Negación de x. Viendo que x es verdadero, !x es falso.");
+            Console.WriteLine($"!y = {!y} -> Negación de y. Sabiendo que y es falso, !y es verdadero.");
+        }
     }
     
 }

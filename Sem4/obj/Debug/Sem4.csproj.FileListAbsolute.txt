@@ -1,0 +1,7 @@
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\bin\Debug\Sem4.exe.config
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\bin\Debug\Sem4.exe
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\bin\Debug\Sem4.pdb
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\obj\Debug\Sem4.csproj.AssemblyReference.cache
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\obj\Debug\Sem4.csproj.CoreCompileInputs.cache
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\obj\Debug\Sem4.exe
+C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\Sem4\obj\Debug\Sem4.pdb

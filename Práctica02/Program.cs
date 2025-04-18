@@ -10,7 +10,7 @@ namespace Práctica02
     {
         static void Main(string[] args)
         {
-            ejercicio08();
+            ejercicio10();
                 Console.ReadKey();
         }
             static void ejercicio01()

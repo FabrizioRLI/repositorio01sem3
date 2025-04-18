@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4610F11-F9CB-46C3-B2BE-4F1FA1D8150B}</ProjectGuid>
+    <ProjectGuid>{E7A390C4-5015-4940-968B-CA5D6CE82A87}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sem4</RootNamespace>
-    <AssemblyName>Sem4</AssemblyName>
+    <RootNamespace>SEM4</RootNamespace>
+    <AssemblyName>SEM4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

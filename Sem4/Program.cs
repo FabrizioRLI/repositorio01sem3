@@ -61,20 +61,21 @@ namespace SEM4
             double sueldobase, sueldoM, sueldoJ, sueldoP, sueldoT;
             Console.Write("Ingrese un sueldo base ficticio: ");
             sueldobase = Convert.ToDouble(Console.ReadLine());
-            sueldoM = sueldobase - (sueldobase * 0.05) - 25;
-            sueldoJ = sueldobase + (sueldobase * 0.23) + 72;
-            sueldoP = sueldobase + (sueldobase * 0.05) - 56;
+            sueldoM = (sueldobase * 0.95) - 25;
+            sueldoJ = (sueldobase * 1.23) + 72;
+            sueldoP = (sueldobase * 1.05) - 56;
             sueldoT = (sueldoM + sueldoJ + sueldoP);
-            Console.WriteLine($"El sueldo de María es: {sueldoM}");
-            Console.WriteLine($"El sueldo de Juan es: {sueldoJ}");
-            Console.WriteLine($"El sueldo de Patricio es: {sueldoP}");
-            Console.WriteLine($"El sueldo total de todos es: {sueldoT}");
+            Console.WriteLine($"El sueldo de María es: {sueldoM:F2}");
+            Console.WriteLine($"El sueldo de Juan es: {sueldoJ:F2}");
+            Console.WriteLine($"El sueldo de Patricio es: {sueldoP:F2}");
+            Console.WriteLine($"El sueldo total de todos es: {sueldoT:F2}");
         }
         static void ejercicio04()
         {
             int año;
             Console.Write("Ingrese un año: ");
             año = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine();
             if ((año % 4 == 0 && año % 100 != 0) || (año % 400 == 0))
             {
                 Console.WriteLine($"{año} es un bisiesto.");
@@ -93,20 +94,20 @@ namespace SEM4
             monto = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("\n¿A qué moneda desea convertir?");
-            Console.WriteLine("[1] Dólares (USD)");
+            Console.WriteLine("\n[1] Dólares (USD)");
             Console.WriteLine("[2] Euros (EUR)");
-            Console.Write("Seleccione una opción (1 o 2): ");
+            Console.Write("\nSeleccione una opción (1 o 2): ");
             opcion = Convert.ToInt32(Console.ReadLine());
 
             switch (opcion)
             {
                 case 1:
                     dolares = monto / 3.75;
-                    Console.WriteLine($"El monto en dólares (USD) es: {dolares:F2}");
+                    Console.WriteLine($"\nEl monto en dólares (USD) es: {dolares:F2}");
                     break;
                 case 2:
                     euros = monto / 4.05;
-                    Console.WriteLine($"El monto en euros (EUR) es: {euros:F2}");
+                    Console.WriteLine($"\nEl monto en euros (EUR) es: {euros:F2}");
                     break;
                 default:
                     Console.WriteLine("Opción no válida. Intente nuevamente.");
@@ -120,12 +121,12 @@ namespace SEM4
             int l;
             double area, b, h, r;
 
-
-            Console.WriteLine("[1] Cuadrado");
+            Console.WriteLine("Bienvenido al sistema de calculo de áreas");
+            Console.WriteLine("\n[1] Cuadrado");
             Console.WriteLine("[2] Triámgulo");
             Console.WriteLine("[3] Rectángulo");
             Console.WriteLine("[4] Circulo");
-            Console.Write("Elija del 1-4 la figura que quiere resolver su área: ");
+            Console.Write("\nElija del 1-4 la figura que quiere resolver su área: ");
             area = Convert.ToDouble(Console.ReadLine());
 
             switch (area)
@@ -158,9 +159,26 @@ namespace SEM4
                     area = Math.PI * Math.Pow(r, 2);
                     Console.WriteLine($"El área del circulo es: {area:F2}");
                     break;
+                default:
+                    Console.WriteLine("\nIngreso un valor incorrecto..");
+                    break;
             }
                 
 
+        }
+        static void ejercicio07()
+        {
+            double sueldobase, sueldoM, sueldoJ, sueldoP, sueldoT;
+            Console.Write("Ingrese un sueldo base ficticio: ");
+            sueldobase = Convert.ToDouble(Console.ReadLine());
+            sueldoM = sueldobase - (sueldobase * 0.05) - 25;
+            sueldoJ = sueldobase + (sueldobase * 0.23) + 72;
+            sueldoP = sueldobase + (sueldobase * 0.05) - 56;
+            sueldoT = (sueldoM + sueldoJ + sueldoP);
+            Console.WriteLine($"El sueldo de María es: {sueldoM:F2}");
+            Console.WriteLine($"El sueldo de Juan es: {sueldoJ:F2}");
+            Console.WriteLine($"El sueldo de Patricio es: {sueldoP:F2}");
+            Console.WriteLine($"El sueldo total de todos es: {sueldoT}");
         }
 
 

@@ -5,3 +5,10 @@ C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\SEM3-SEM4\repo
 C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\SEM3-SEM4\repositorio01sem3\SEM4\obj\Debug\SEM4.csproj.CoreCompileInputs.cache
 C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\SEM3-SEM4\repositorio01sem3\SEM4\obj\Debug\SEM4.exe
 C:\Users\lifab\Documentos\Proyects Visual Studio 2022\C# PRACTICE\SEM3-SEM4\repositorio01sem3\SEM4\obj\Debug\SEM4.pdb
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\bin\Debug\SEM4.exe.config
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\bin\Debug\SEM4.exe
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\bin\Debug\SEM4.pdb
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\obj\Debug\SEM4.csproj.AssemblyReference.cache
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\obj\Debug\SEM4.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\obj\Debug\SEM4.exe
+C:\Users\UPN\Documents\git e\repositorio01sem3\SEM4\obj\Debug\SEM4.pdb
